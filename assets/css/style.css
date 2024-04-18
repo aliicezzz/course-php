@@ -1,0 +1,37 @@
+/* colors:
+azul: #0540D8
+bege: #F6ECDA
+branco:#FFFFFF
+*/
+
+
+* {
+    font-family: 'Oswald', sans-serif; /*Define a fonte para o corpo do documento*/
+    box-sizing: border-box; /*Inclui preenchimento e borda no tamanho total do elemento*/
+}
+
+body {
+    height: 100vh; /*Define a altura do elemento para ocupar 100% da altura da janela do navegador*/
+    margin: 0px; /*Define as margens do elemento como zero para remover qualquer espaçamento ao redor*/
+    display: grid; /*Define o layout do elemento como grid para usar um layout de grade*/
+    grid-template-rows: 120px 1fr 60px; /*Define as linhas da grade: 120px para o cabeçalho, 1fr para o conteúdo principal e 60px para o rodapé*/
+    grid-template-columns: 1fr;/*Define as colunas da grade: uma fração para que o conteúdo principal ocupe todo o espaço disponível na horizontal*/
+    grid-template-areas: "header" "main" "footer";/* Define as áreas da grade, nomeando cada linha para referência em outras regras de estilo */
+}
+
+.header {
+    grid-area: header;
+    background-color: #F6ECDA; /*Define a cor de fundo do cabeçalho como #F6ECDA*/
+}
+
+.main {
+    grid-area: main;
+    height: calc(100vh - 180px); /*Define a altura do elemento como 100% da altura da janela do navegador, subtraindo 180 pixels*/
+    background-color: #0540D8; /*Define a cor de fundo da área principal como azul #0540D8*/
+    padding: 20px; /*Adiciona um preenchimento interno de 20 pixels ao redor do conteúdo*/
+}
+
+.footer {
+    grid-area: footer;
+    background-color: white; /*Define a cor de fundo do rodapé como branco*/
+}
