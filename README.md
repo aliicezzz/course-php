@@ -1,5 +1,7 @@
 # Course (PHP 7)
 
+Status do Curso: Em desenvolvimento :warning:
+
 ## :rocket: Sobre o curso
 
 Dominando PHP 7 , HTML, CSS, JavaScript, Banco de Dados, partindo dos fundamentos.
@@ -12,4 +14,4 @@ Dominando PHP 7 , HTML, CSS, JavaScript, Banco de Dados, partindo dos fundamento
 - Integrar a aplicação com banco de dados usando PDO e MySQLi
 - Criar projetos PHP de aplicações reais e com layouts atrativos
 
-  Status do Projeto: Em desenvolvimento :warning:
+
