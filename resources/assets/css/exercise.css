@@ -2,7 +2,7 @@ body.exercise {
     grid-template-rows: 120px 60px 1fr 60px;
     grid-template-areas: 
         "header"
-        "navegacao"
+        "navigation"
         "main"
         "footer";
 }
@@ -12,7 +12,7 @@ body.exercise {
 }
 
 .navigation {
-    grid-area: navegacao;
+    grid-area: navigation;
     display: flex;
     justify-content: flex-end;
     align-items: center;
