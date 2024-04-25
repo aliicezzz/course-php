@@ -46,6 +46,21 @@
                         </li>
                     </ul>
                 </div>
+                <div class="module red">
+                    <h3>Módulo 02 <> Tipos</h3>
+                    <ul>
+                        <li>
+                            <a href="exercise.php?dir=type&file=int">
+                                Tipo Inteiro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercise.php?dir=type&file=float">
+                                Tipo Float
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
