@@ -59,6 +59,11 @@
                                 Tipo Float
                             </a>
                         </li>
+                        <li>
+                            <a href="exercise.php?dir=type&file=arithmetic">
+                                Operações Aritiméticas
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
