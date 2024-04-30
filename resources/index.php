@@ -64,6 +64,11 @@
                                 Operações Aritiméticas
                             </a>
                         </li>
+                        <li>
+                            <a href="exercise.php?dir=type&file=challenge_precedence">
+                                Desafio Precedência
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
